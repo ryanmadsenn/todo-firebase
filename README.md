@@ -2,7 +2,7 @@
 
 # Overview
 
-This software is a todo webapp that uses the firestore cloud database to store todo items along with their state. 
+This software is a todo webapp that uses the firestore cloud database to store todo item content and status. 
 
 I wrote this software because I wanted to learn more about cloud databases and a todo app is a perfect application to use with a cloud database.
 
