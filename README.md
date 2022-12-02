@@ -2,11 +2,9 @@
 
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This software is a todo webapp that uses the firestore cloud database to store todo items along with their state. 
 
-{Provide a description the software that you wrote and how it integrates with a Cloud Database.  Describe how to use your program.}
-
-{Describe your purpose for writing this software.}
+I wrote this software because I wanted to learn more about cloud databases and a todo app is a perfect application to use with a cloud database.
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
 
@@ -14,25 +12,22 @@
 
 # Cloud Database
 
-{Describe the cloud database you are using.}
+Firebase Firestore
 
-{Describe the structure of the database that you created.}
+Firebase's Firestore database is organized in a series of collections and documents. Collections store multiple documents, and documents store the information in key value pairs. For my todo app, I made a collection called "todos" that contains each individual todo as a document. Each todo document has the todo content and complete status.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+* Visual Studio Code
+* Firebase Firestore Cloud Database
+* JavaScript
+* HTMl/CSS
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Firebase Documentation]([http://url.link.goes.here](https://firebase.google.com/docs?gclid=Cj0KCQiAvqGcBhCJARIsAFQ5ke4b45LReoVfyZ1kTdcXyf9y5f2rUMByMSnp4mMEJUKci4CUZYL_hzMaAmCsEALw_wcB&gclsrc=aw.ds)
 
 # Future Work
-
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Add the ability to create an account so that multiple users can store their todos in the app
+* Add a login feature so that a user's todos are password-protected
