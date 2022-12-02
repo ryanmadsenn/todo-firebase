@@ -24,8 +24,6 @@ Firebase's Firestore database is organized in a series of collections and docume
 * HTMl/CSS
 
 # Useful Websites
-
-{Make a list of websites that you found helpful in this project}
 * [Firebase Documentation](https://firebase.google.com/docs?gclid=Cj0KCQiAvqGcBhCJARIsAFQ5ke4b45LReoVfyZ1kTdcXyf9y5f2rUMByMSnp4mMEJUKci4CUZYL_hzMaAmCsEALw_wcB&gclsrc=aw.ds)
 
 # Future Work
