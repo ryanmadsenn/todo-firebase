@@ -6,8 +6,6 @@ This software is a todo webapp that uses the firestore cloud database to store t
 
 I wrote this software because I wanted to learn more about cloud databases and a todo app is a perfect application to use with a cloud database.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
-
 [Software Demo Video](https://youtu.be/VdOLsAL0kdk)
 
 # Cloud Database
