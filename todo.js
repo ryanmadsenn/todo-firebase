@@ -19,13 +19,7 @@ import {
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDMi5VH0SNq-SzwHa1NVRLIqP8K3ATEDIQ",
-  authDomain: "todo-tracker-41dba.firebaseapp.com",
-  projectId: "todo-tracker-41dba",
-  storageBucket: "todo-tracker-41dba.appspot.com",
-  messagingSenderId: "547431450945",
-  appId: "1:547431450945:web:7521b0368d29dc6c60b9c0",
-  measurementId: "G-NTM7T9HZZ2",
+  
 };
 
 // Initialize Firebase
