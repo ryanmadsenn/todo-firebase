@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="An online to-do list web app." />
+    <script defer src="todo.js" type="module"></script>
+    <link href="https://css.gg/trash.css" rel="stylesheet" />
+    <link href="https://css.gg/check.css" rel="stylesheet" />
+    <link href="https://css.gg/close.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>To-do Web App</title>
+  </head>
+  <body>
+    <main>
+      <div id="to-do-header-container">
+        <h1>My To-dos</h1>
+      </div>
+      <div id="add-to-do-container">
+        <button id="add-to-do">+</button>
+        <div id="item-input">
+          <input id="item-text" type="text" placeholder="Type here..." />
+          <div id="icons">
+            <i id="close" class="gg-close close-icon"></i>
+            <i id="check" class="gg-check check-icon"></i>
+          </div>
+        </div>
+      </div>
+      <div id="to-dos-container"></div>
+      <div id="filters">
+        <p id="items-left"></p>
+        <div id="filter-button-container">
+          <button id="all-button" class="filter-button">All</button>
+          <button id="active-button" class="filter-button">Active</button>
+          <button id="completed-button" class="filter-button">Completed</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+:root {
+  --heading-font: "Josefin Sans", "Arial";
+  --paragraph-font: "Roboto", "Arial";
+}
+
+body {
+  width: 500px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  font-family: var(--paragraph-font);
+}
+
+main h1 {
+  text-align: center;
+  font-family: var(--heading-font);
+  margin: 0;
+}
+
+main {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 3px #999;
+  margin: 20px;
+  padding: 15px;
+  padding-bottom: 0;
+}
+
+#to-do-header-container {
+  text-align: center;
+  align-items: center;
+}
+
+#add-to-do {
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  font-size: 20px;
+  box-shadow: 0px 0px 3px #888;
+  margin-bottom: 7.5px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  margin: 10px;
+  /* transition: padding 0.1s ease; */
+}
+
+#add-to-do:hover {
+  box-shadow: 0px 0px 3px #333;
+}
+
+.to-do {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 12.5px;
+  box-shadow: 0px 0px 3px #999;
+}
+
+.to-do:not(:first-child) {
+  margin-top: 7.5px;
+}
+
+.checkbox-button {
+  display: flex;
+  align-items: center;
+}
+
+.to-do input {
+  margin: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.to-do a {
+  margin: 20px;
+  font-size: 17.5px;
+  cursor: pointer;
+}
+
+.checkbox {
+  accent-color: #333;
+}
+
+.trash-icon {
+  margin-top: 0;
+  margin: 20px;
+  cursor: pointer;
+  color: #333;
+}
+
+#add-to-do-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#item-input {
+  box-shadow: 0px 0px 3px #999;
+  padding: 5px;
+  border-radius: 12.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  opacity: 0%;
+  transition: opacity 0.25s ease;
+}
+
+#item-text {
+  border: none;
+  border: solid 1px #555;
+  border-radius: 7.5px;
+  width: 50%;
+  height: 25px;
+}
+
+#icons {
+  display: flex;
+}
+
+.check-icon {
+  /* margin-right: -5px; */
+  transform: scale(1.4);
+  cursor: pointer;
+}
+
+.close-icon {
+  color: black;
+  cursor: pointer;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+#filters {
+  display: flex;
+  justify-content: space-between;
+}
+
+#filter-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.filter-button {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px #555;
+  margin-left: 5px;
+}
+
+.filter-button-selected {
+  background-color: #999;
+}
